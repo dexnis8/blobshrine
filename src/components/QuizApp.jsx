@@ -193,6 +193,9 @@ const QuizApp = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
       <div className="container mx-auto relative z-10">
+        <header className="text-center text-white py-8 pb-5">
+          <h1 className="text-3xl font-bold">Prove Yourself</h1>
+        </header>
         {showCongrats ? (
           <CongratsPage />
         ) : quizOver ? (
