@@ -194,7 +194,9 @@ const QuizApp = () => {
       </div>
       <div className="container mx-auto relative z-10">
         <header className="text-center text-white py-8 pb-5">
-          <h1 className="text-3xl font-bold">Prove Yourself</h1>
+          <h1 className="text-3xl font-bold">
+            Prove you are a true blob army!
+          </h1>
         </header>
         {showCongrats ? (
           <CongratsPage />
