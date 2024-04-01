@@ -203,7 +203,7 @@ const QuizApp = () => {
         ) : quizOver ? (
           <div className="max-w-md mx-auto my-8 p-6 bg-red-100 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold text-red-800 mb-4">
-              Quiz Over! You've exhausted all attempts.
+              Quiz Over! You are not worthy?
             </h2>
           </div>
         ) : (
