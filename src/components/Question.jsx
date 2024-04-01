@@ -68,6 +68,9 @@ const Question = ({
     e.preventDefault();
     onAnswerCheck(userAnswer);
   };
+  useEffect(() => {
+    setUserAnswer("");
+  }, [question]);
 
   return (
     <div className="max-w-md mx-auto my-8 p-6 bg-gray-100 rounded-lg shadow-md">
@@ -91,13 +94,13 @@ const Question = ({
         >
           Check Answer
         </button>
-        <button
+        {/* <button
           className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
           type="button"
           onClick={onNextQuestion}
         >
           Next
-        </button>
+        </button> */}
       </form>
       <p className="text-gray-500">Attempts left: {attemptsLeft}</p>
     </div>
